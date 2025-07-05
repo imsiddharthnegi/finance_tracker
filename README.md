@@ -79,9 +79,7 @@ A comprehensive web application for tracking personal finances, built with Next.
    ```
    
    Update the environment variables as needed:
-   ```env
-   # MongoDB connection string (optional - currently using file storage)
-   MONGODB_URI=mongodb://localhost:27017/finance-tracker
+   ``
    ```
 
 4. **Run the development server**
@@ -182,23 +180,6 @@ finance-tracker/
 - Contextual help and guidance
 - Error states and loading indicators
 
-## 🚀 Deployment
-
-### Vercel Deployment (Recommended)
-
-1. **Connect to Vercel**
-   ```bash
-   npm install -g vercel
-   vercel login
-   ```
-
-2. **Deploy**
-   ```bash
-   vercel --prod
-   ```
-
-3. **Environment Variables**
-   Set up environment variables in Vercel dashboard if using MongoDB
 
 ### Manual Deployment
 
