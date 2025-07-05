@@ -1,21 +1,10 @@
 {
-  "framework": "nextjs",
-  "buildCommand": "npm run build",
-  "outputDirectory": ".next",
   "installCommand": "npm install",
   "devCommand": "npm run dev",
   "env": {
-  "MONGODB_URI": "mongodb+srv://thesmartperks:sTKLaYmF740XUcUW@cluster0.0yje419.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-}
+    "MONGODB_URI": "mongodb+srv://thesmartperks:sTKLaYmF740XUcUW@cluster0.0yje419.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   },
   "functions": {
-    "src/app/api/**/*.ts": {
-      "runtime": "nodejs18.x"
-    }
-  },
-  "regions": ["iad1"],
-  "github": {
-    "autoAlias": false
+    "src/app/api/**/*.ts": {}
   }
 }
-
